@@ -25,7 +25,7 @@ CodePen Link: https://codepen.io/matthewwbolton/pen/povZeJj?editors=1100
         It can be used on any HTML element.
 
     9. How many times can I use the same id on a page? 
-        You can use the same ID multiple times, however the ID should be unique to each element.
+        The ID attriburte should be used only once per page.
 
     10. What is a class? 
         Class is an attribute that specifies one or more class names for HTML elements.
@@ -34,33 +34,82 @@ CodePen Link: https://codepen.io/matthewwbolton/pen/povZeJj?editors=1100
         You may use class attributes on any HTML elements.
 
     12. How many times can I use the same class on a page? 
-        
+        You can use the same class as many times as needed per page.
 
     13. How do I get my link to open in a new tab?
+        target = "_blank"
+
     14. What is the alt attribute used for? 
+        It specifies alternate text for an image in the event a picture does not load.
+
     15. How do I reference an id?
+        #'name of ID'
+
     16. What is the difference between a section and a div
+        Section means the content inside is grouped together. A div does not convey any meaning.
+
     17. What is CSS used for? 
+        CSS is used to style a webpage.
+
     18. How to we select an element? Example - every h2 on the page
+        You can select an element by using the element itself or by referencing its ID or Class attribute.
+
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        The ID attribute has a heavier specificity weight than the class attribute. Use an ID when you want to identify one element. Use a class attribute when you want to identify multiple elements.
+
     20. How do we select classes in CSS?
+        .'name of class'
+
     21. How do we select a p element with a single class of “human””?
+        .human p {}
+
     22. What is a parent child selector? When would this be useful? 
+        Selects all elements that are a direct child of the specified element. These are useful when referencing nested elements.
+
     23. How do you select all links within a div with the class of sidebar?
+        .sidebar a {}
+
     24. What is a pseudo selector?
+        It is a selector that references elements that are in a specific state.
+
     25. What do we use the change the spacing between lines?
+        line-height property
+
     26. What do we use to change the spacing between letters?
+        letter-spacing property
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform property
+
     28. How do I add a 1px border around my div that is dotted and black?
-    29. How do I select everything on the page? 
+        border: 1px dotted black;
+
+    29. How do I select everything on the page?
+        universal selector (*)
+
     30. How do I write a comment in CSS?
-    31. How do I find out what file I am in, when I am using the command line? 
+        /* */
+
+    31. How do I find out what file I am in, when I am using the command line?
+        PWD = Print Working Directory
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls 
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm 'name of file to be removed' You have to be careful because this file will not be moved to the Trash like it would when using the GUI. The file will be permanently deleted.
+
     34. Why should I use version control? 
+        In order to track every individual change. You can revert to an earlier version if changes have broken your code.
+
     35. How often should I commit to github?
-    36. What is the command we would use to push our repo up to github? 
+        You should commit every 20/30 minutes.
+
+    36. What is the command we would use to push our repo up to github?
+        git push -u origin 'branch-name'
+
     37. Walk me through Lambda's git flow. 
+        Fork => Add Collaborator => Clone => Branch => Add => Commit => Push => Create Pull Request
 
 Stretch Questions
 
